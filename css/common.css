@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1785099 */
+    src: url('//at.alicdn.com/t/font_1785099_ahhou80owdn.eot');
+    src: url('//at.alicdn.com/t/font_1785099_ahhou80owdn.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.svg#iconfont') format('svg');
+}
+
+.shortcut {
+    height: 31px;
+    font-size: 12px;
+    color: #666;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+    line-height: 31px;
+}
+
+.shortcut ul.fr li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    margin: 9px 12px 0;
+    background-color: #666;
+}
+
+.header .w {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 220px;
+    height: 56px;
+    text-indent: -9999px;
+    background: url("../img/logo.png") no-repeat;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.text {
+    display: block;
+    float: left;
+    width: 444px;
+    height: 36px;
+    padding: 5px;
+    border: 2px solid #b1191a;
+}
+
+.btn {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 36px;
+    
+    color: #fff;
+    background-color: #b1191a;
+    border: none;
+    outline: none;
+}
+
+.hotwords {
+    position: absolute;
+    top: 69px;
+    left: 348px;
+}
+
+.hotwords a {
+    margin: 0 12px;
+    font-size: 12px;
+}
+
+.hotwords a:hover {
+    color: #c81623;
+}
+
+.shopcar {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 140px;
+    height: 36px;
+    color: #666;
+    line-height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar span {
+    line-height: 36px;
+    font-size: 20px;
+    font-family: iconfont;
+}
+
+.shopcar p {
+    display: inline-block;
+}
+
+.count {
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    padding: 0 4px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    font-style: normal;
+    border-radius: 7px 7px 7px 0;
+}
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown .dt {
+    width: 209px;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #b1191a;
+}
+
+.dropdown .dd {
+    display: none;
+    width: 209px;
+    margin-top: 2px;
+    background-color: #c81623;
+}
+
+.cate-item {
+    height: 31px;
+    margin-left: 1px;
+    padding-left: 12px;
+}
+
+.cate-item:hover a {
+    color: #c81623;
+}
+
+.cate-item:hover {
+    background-color: #fff;
+}
+
+.cate-item span {
+    float: right;
+    line-height: 31px;
+    padding-right: 10px;
+    font-family: iconfont;
+    color: #fff;
+}
+
+.cate-item a {
+    line-height: 31px;
+    color: #fff;
+}
+
+.nav-items {
+    margin-left: 16px;
+}
+
+.nav-items ul li {
+    float: left;
+}
+
+.nav-items ul li a {
+    display: block;
+    height: 45px;
+    padding: 0 24px;
+
+    color: #333333;
+    line-height: 45px;
+}
+
+.footer {
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+.service {
+    height: 110px;
+}
+
+.service ul li {
+    float: left;
+    width: 240px;
+    height: 110px;
+}
+
