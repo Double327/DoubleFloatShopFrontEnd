@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'iconfont';  /* project id 1785099 */
-    src: url('//at.alicdn.com/t/font_1785099_ahhou80owdn.eot');
-    src: url('//at.alicdn.com/t/font_1785099_ahhou80owdn.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.woff2') format('woff2'),
-    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.woff') format('woff'),
-    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_1785099_ahhou80owdn.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_1785099_ttqtkjhf2cr.eot');
+    src: url('//at.alicdn.com/t/font_1785099_ttqtkjhf2cr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1785099_ttqtkjhf2cr.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1785099_ttqtkjhf2cr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1785099_ttqtkjhf2cr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1785099_ttqtkjhf2cr.svg#iconfont') format('svg');
 }
 
 .shortcut {
@@ -15,9 +15,24 @@
     background-color: #f1f1f1;
 }
 
-.shortcut ul li {
+.shortcut li {
     float: left;
+    font-size: 12px;
+    color: #666;
     line-height: 31px;
+}
+
+.shortcut ul li span {
+    font-family: iconfont;
+}
+
+.shortcut li a {
+    font-size: 12px;
+    color: #666;
+}
+
+.shortcut ul li a:hover {
+    color: #e1251b;
 }
 
 .shortcut ul.fr li:nth-child(even) {
@@ -53,7 +68,8 @@
     width: 444px;
     height: 36px;
     padding: 5px;
-    border: 2px solid #b1191a;
+    border: 2px solid #e1251b;
+    -webkit-appearance: none;
 }
 
 .btn {
@@ -63,7 +79,7 @@
     height: 36px;
     
     color: #fff;
-    background-color: #b1191a;
+    background-color: #e1251b;
     border: none;
     outline: none;
 }
@@ -98,6 +114,10 @@
     background-color: #f7f7f7;
 }
 
+.shopcar:hover {
+    border: 1px solid #e1251b;
+}
+
 .shopcar span {
     line-height: 36px;
     font-size: 20px;
@@ -124,7 +144,12 @@
 
 .nav {
     height: 45px;
-    border-bottom: 2px solid #b1191a;
+    border-bottom: 2px solid #e1251b;
+}
+
+.nav-item a {
+    font-size: 16px;
+    color: #333;
 }
 
 .dropdown .dt {
@@ -134,14 +159,13 @@
     font-size: 16px;
     line-height: 45px;
     text-align: center;
-    background-color: #b1191a;
+    background-color: #e1251b;
 }
 
 .dropdown .dd {
-    display: none;
     width: 209px;
     margin-top: 2px;
-    background-color: #c81623;
+    background-color: #e1251b;
 }
 
 .cate-item {
@@ -193,13 +217,117 @@
     background-color: #f5f5f5;
 }
 
+.footer a:hover {
+    text-decoration: underline;
+}
+
 .service {
     height: 110px;
+    border-bottom: 1px solid #ededed;
 }
 
 .service ul li {
     float: left;
     width: 240px;
-    height: 110px;
+    height: 80px;
+    margin-top: 30px;
 }
 
+.service ul li i {
+    float: left;
+    width: 49px;
+    height: 49px;
+}
+
+.service ul li div {
+    float: left;
+    margin-left: 8px;
+}
+
+.service ul li h3 {
+    margin-top: 7px;
+    font-size: 14px;
+    color: #333;
+}
+
+.service ul li p {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+.service-zheng i {
+    margin-left: 37px;
+    background: url("../img/five-icon.png") no-repeat 0;
+}
+
+.service-kuai i {
+    margin-left: 38px;
+    background: url("../img/five-icon.png") no-repeat -53px 0;
+}
+
+.service-bao i {
+    margin-left: 47px;
+    background: url("../img/five-icon.png") no-repeat -106px 0;
+}
+
+.service-fu i {
+    margin-left: 42px;
+    background: url("../img/five-icon.png") no-repeat -159px 0;
+}
+
+.service-help i {
+    margin-left: 55px;
+    background: url("../img/five-icon.png") no-repeat -212px 0;
+}
+
+.help {
+    height: 188px;
+    margin-top: 20px;
+    padding-left: 52px;
+    border-bottom: 1px solid #ededed;
+}
+
+.help .help-nav {
+    float: left;
+    width: 198px;
+}
+
+.help-nav h5 {
+    font-size: 16px;
+    color: #333333;
+}
+
+.help-nav a {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.help-nav a:hover {
+    color: #c81623;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+
+.copyright p a {
+    font-size: 12px;
+    color: #666666;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+.beian {
+    margin-top: 10px;
+}
